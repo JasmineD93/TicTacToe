@@ -1,0 +1,39 @@
+/*width 100px
+heigh 100px
+*/
+body{
+	font-family: 'Shadows Into Light', cursive;
+}
+
+h1{
+	text-align: center;
+	text-decoration: underline;
+}
+td {
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+}
+
+#upperleft, #uppercenter{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#centerleft, #center{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+#centerright, #upperright{
+	border-bottom: 1px solid black;
+}
+
+#lowerleft, #lowercenter {
+	border-right: 1px solid black;
+}
+
+table{
+	margin: auto;
+}
